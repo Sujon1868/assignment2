@@ -1,0 +1,42 @@
+body {
+   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+  nav div ul {
+    flex-direction: column;
+  }
+  nav div ul li {
+    margin-right: 0;
+  }
+  nav div ul li:not(:last-child) {
+    display: none;
+
+  }
+
+  
+  section {
+    flex-direction: column-reverse !important; 
+    text-align: center;
+    
+  }
+  section > div {
+    margin-bottom: 0;
+    text-align: left;
+     
+  }
+  section > div:last-child {
+    margin-bottom: 2rem;
+  }
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
